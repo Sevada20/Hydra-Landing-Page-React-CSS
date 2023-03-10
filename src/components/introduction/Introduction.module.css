@@ -1,0 +1,31 @@
+.introductionContainer {
+  display: flex;
+  column-gap: 140px;
+}
+.span1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+}
+.span2 {
+  font-weight: 300;
+  font-size: 36px;
+  color: #ffffff;
+}
+.shapeVectorContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.imgContainer {
+  width: 80px;
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.textP {
+  margin-top: 90px;
+}
+.leftSection {
+  margin-top: 100px;
+}
