@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerTextDiv {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+}
+.textDive {
+  background: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.virtual {
+  background: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.textLorem {
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.imgRight {
+  margin-top: 98px;
+  margin-left: 220px;
+}
+
+.textShapeDiv {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border: none;
+  border-radius: 40px;
+  padding: 17px 43px 16px 38px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.textShape {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  margin-top: 66px;
+  color: #343045;
+}
+
+.img {
+  border-radius: 100px 100px 100px 240px;
+}
+
+.textLeftContainer {
+  margin-top: 146px;
+  display: flex;
+  flex-direction: column;
+}

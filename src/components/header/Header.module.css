@@ -1,0 +1,55 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.styled_link {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+}
+.headerImages {
+  display: flex;
+  align-items: center;
+}
+.linkContainer {
+  display: flex;
+  column-gap: 41px;
+  margin-left: 205px;
+}
+.headerContactContainer {
+  display: flex;
+  column-gap: 38px;
+  margin-left: 140px;
+}
+.group {
+  margin-left: 15px;
+}
+.headerContact {
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 16px 34px;
+  line-height: 14px;
+}
+.headerContact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.joinHydra {
+  border: 2px solid #ffffff;
+  border-radius: 40px;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 16px 34px;
+  line-height: 14px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+}
+.joinHydra a {
+  text-decoration: none;
+  color: #343045;
+}
