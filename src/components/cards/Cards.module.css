@@ -1,0 +1,56 @@
+.cards_container {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 107px;
+  color: #ffffff;
+}
+.cards_container h2 {
+  margin-top: 21px;
+  border-bottom: 1px solid #c0b7e8;
+  padding-bottom: 17.5px;
+}
+.cards_container p {
+  font-weight: 400;
+  font-size: 10px;
+}
+.cards_container a {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.imgDiv {
+  width: 219px;
+  height: 219px;
+  background-color: rgba(14, 14, 14, 0.32);
+  border-radius: 50%;
+  text-align: center;
+}
+.imgDiv img {
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.simulation,
+.education,
+.self_care,
+.outdoor {
+  width: 310px;
+  height: 269px;
+  background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+  border-radius: 40px;
+  text-align: center;
+  padding: 23px 45px 220px 45px;
+}
+
+.link {
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  padding: 16px 39px 17px 39px;
+  margin-top: 35px;
+}
+.link a {
+  color: #343045;
+}

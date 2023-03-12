@@ -2,6 +2,9 @@
   display: flex;
   justify-content: space-between;
   color: #ffffff;
+  background-image: url("../../img/aboutImg/patter1.png"),
+    url("../../img/aboutImg/patter2.png");
+  background-repeat: no-repeat;
 }
 .aboutContainer p {
   font-weight: 400;
@@ -67,6 +70,7 @@
 .linkDiv a {
   font-weight: 700;
   font-style: 12px;
+  text-decoration: none;
 }
 
 .bottomP {

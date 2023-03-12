@@ -2,6 +2,7 @@ import styles from "./About.module.css";
 import about from "../../img/aboutImg/about.png";
 import vector from "../../img/introductionImg/vector.png";
 import shape from "../../img/introductionImg/shape.png";
+
 const AboutSection = () => {
   return (
     <div className={styles.aboutContainer}>

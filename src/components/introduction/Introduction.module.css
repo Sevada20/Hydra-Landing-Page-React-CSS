@@ -1,6 +1,7 @@
 .introductionContainer {
   display: flex;
   column-gap: 140px;
+  color: #ffffff;
 }
 .span1 {
   font-weight: 700;

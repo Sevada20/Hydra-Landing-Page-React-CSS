@@ -15,38 +15,47 @@
 }
 .linkContainer {
   display: flex;
-  column-gap: 41px;
-  margin-left: 205px;
+  column-gap: 40px;
+  margin-left: 190px;
 }
+.linkContainer a:last-child {
+  white-space: nowrap;
+}
+
 .headerContactContainer {
   display: flex;
-  column-gap: 38px;
-  margin-left: 140px;
+  column-gap: 35px;
+  margin-left: 120px;
 }
 .group {
   margin-left: 15px;
 }
 .headerContact {
+  width: 150px;
+  height: 48px;
   border: 2px solid #ffffff;
   border-radius: 40px;
-  font-weight: 700;
-  font-size: 12px;
-  padding: 16px 34px;
-  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .headerContact a {
+  font-weight: 700;
+  font-size: 12px;
   color: #ffffff;
   text-decoration: none;
 }
 
 .joinHydra {
-  border: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 48px;
   border-radius: 40px;
   border: none;
   font-weight: 700;
   font-size: 12px;
-  padding: 16px 34px;
-  line-height: 14px;
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
 }
 .joinHydra a {

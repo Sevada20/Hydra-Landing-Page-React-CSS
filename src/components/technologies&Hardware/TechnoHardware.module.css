@@ -1,0 +1,33 @@
+.imgWithContainer {
+  background: url("../../img/technologies&Hardware/productions.png") #211e2e;
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 114px;
+  color: #ffffff;
+}
+.imgWithContainer h2 {
+  font-weight: 700;
+  font-style: 36px;
+  padding-top: 108px;
+}
+.imgWithContainer h3 {
+  font-weight: 300;
+  font-style: 36px;
+  padding-bottom: 75px;
+}
+.imgDiv {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(267.61deg, #c0b7e8 -0.6%, #8176af 98.31%);
+  margin-top: -35px;
+}
