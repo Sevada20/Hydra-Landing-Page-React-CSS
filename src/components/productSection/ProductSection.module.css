@@ -63,3 +63,33 @@
   background-image: url("../../img//productSectionImg/pattern4.png");
   background-repeat: no-repeat;
 }
+
+@media (max-width: 390px) {
+  .container {
+    flex-direction: column;
+  }
+  .img {
+    width: 340px;
+    height: 296px;
+  }
+  .imgRight {
+    order: -1;
+    margin-top: 54px;
+  }
+  .textLorem {
+    display: none;
+  }
+  .headerTextDiv {
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+  }
+  .imgShape {
+    display: none;
+  }
+  .textShape {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+  }
+}

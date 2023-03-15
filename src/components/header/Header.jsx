@@ -1,7 +1,8 @@
 import styles from "./Header.module.css";
 import group from "../../img/headerImg/Group.png";
 import vector from "../../img/headerImg/Vector.png";
-
+import buttonOpenNavLink from "../../img/headerImg/headerMediaImg/buttonOpenNav.png";
+import buttonOpenNavLink1 from "../../img/headerImg/headerMediaImg/buttonOpenNav1.png";
 const Header = () => {
   return (
     <div className={styles.headerContainer}>
@@ -31,6 +32,11 @@ const Header = () => {
           <a href="#!">JOIN HYDRA</a>
         </div>
       </div>
+      <button className={styles.buttonOpenNavLink}>
+        <img src={buttonOpenNavLink1} />
+        <img src={buttonOpenNavLink} />
+        <img src={buttonOpenNavLink1} />
+      </button>
     </div>
   );
 };

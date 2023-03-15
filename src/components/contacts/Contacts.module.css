@@ -40,3 +40,34 @@
   align-items: center;
   column-gap: 14px;
 }
+
+.slider {
+  display: none;
+}
+
+@media (max-width: 390px) {
+  .contactContainer {
+    display: none;
+  }
+  .slider {
+    display: block;
+    color: #ffffff;
+    width: 347px;
+    height: 109px;
+    background: radial-gradient(
+      50% 2900.76% at 50% 53.89%,
+      rgba(58, 52, 86, 0.95) 0%,
+      #211e2e 100%
+    );
+    box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+  }
+  .slider button {
+    background-color: #211e2e;
+    border: none;
+  }
+}

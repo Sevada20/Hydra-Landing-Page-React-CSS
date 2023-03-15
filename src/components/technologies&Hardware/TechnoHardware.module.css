@@ -31,3 +31,33 @@
   background: linear-gradient(267.61deg, #c0b7e8 -0.6%, #8176af 98.31%);
   margin-top: -35px;
 }
+
+@media (max-width: 390px) {
+  .imgDiv {
+    display: none;
+  }
+  .mainContainer {
+    width: 348px;
+    height: 163px;
+  }
+  .imgWithContainer {
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .headerContainer {
+    margin: -40px auto;
+  }
+  .headerContainer h3 {
+    display: block;
+    padding-bottom: 30px;
+    margin-top: -0px;
+  }
+  .headerContainer h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}

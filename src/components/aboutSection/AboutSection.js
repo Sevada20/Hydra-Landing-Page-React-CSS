@@ -7,7 +7,7 @@ const AboutSection = () => {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.leftContainer}>
-        <img src={about} />
+        <img src={about} className={styles.aboutImg} />
         <div className={styles.span_imagesContainer}>
           <span className={styles.rotate}>WHY BUILD</span>
           <div className={styles.spanImages}>

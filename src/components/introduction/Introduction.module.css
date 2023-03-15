@@ -30,3 +30,21 @@
 .leftSection {
   margin-top: 100px;
 }
+
+@media (max-width: 390px) {
+  .introductionContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgContainer {
+    display: none;
+  }
+  .textP {
+    display: none;
+  }
+  .shapeVectorContainer {
+    justify-content: center;
+    align-items: center;
+  }
+}

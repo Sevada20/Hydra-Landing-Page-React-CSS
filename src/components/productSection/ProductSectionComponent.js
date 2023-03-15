@@ -22,7 +22,7 @@ const ProductSectionComponent = () => {
             <a href="#!">BUILD YOUR WORLD</a>
           </div>
           <a href="#!">
-            <img src={shape} />
+            <img src={shape} className={styles.imgShape} />
           </a>
         </div>
       </div>

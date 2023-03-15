@@ -54,3 +54,30 @@
 .link a {
   color: #343045;
 }
+.media_container {
+  display: none;
+}
+@media (max-width: 390px) {
+  .cards_container {
+    display: none;
+  }
+  .media_container {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+  }
+  .simulation {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+  }
+  button {
+    background-color: #343045;
+    border: none;
+  }
+}
