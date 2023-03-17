@@ -57,3 +57,44 @@
   margin-top: 49px;
   text-align: center;
 }
+
+@media (max-width: 390px) {
+  .spanContainer1,
+  .spanContainer2 {
+    display: none;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: none;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .footerContainer img:first-child {
+    background-image: url("../../img/footerImg/style1.png"),
+      url("../../img/footerImg/style2.png");
+    background-size: 390px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 184px;
+    height: 184px;
+  }
+
+  .line {
+    display: none;
+  }
+  .images {
+    display: flex;
+    align-items: center;
+  }
+  .images img:first-child {
+    width: 32px;
+    height: 32px;
+  }
+  .websites_container div:first-child {
+    margin-top: 56px;
+  }
+}

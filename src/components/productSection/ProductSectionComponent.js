@@ -1,12 +1,18 @@
 import styles from "./ProductSection.module.css";
 import pexels from "../../img/productSectionImg/pexels.png";
 import shape from "../../img/productSectionImg/shape.png";
+import reality1 from "../../img/productSectionImg/reality1.png";
+import reality2 from "../../img/productSectionImg/reality2.png";
 
 const ProductSectionComponent = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textLeftContainer}>
         <div className={styles.headerTextDiv}>
+          <div className={styles.mediaImg}>
+            <img src={reality1} />
+            <img src={reality2} />
+          </div>
           <p className={styles.headerText}>
             <span className={styles.textDive}>Dive</span> Into The Depths
             <br /> Of <span className={styles.virtual}>Virtual Reality</span>

@@ -52,7 +52,7 @@
   .slider {
     display: block;
     color: #ffffff;
-    width: 347px;
+    width: 330px;
     height: 109px;
     background: radial-gradient(
       50% 2900.76% at 50% 53.89%,
@@ -66,8 +66,10 @@
     align-items: center;
     margin-top: 53px;
   }
+
   .slider button {
     background-color: #211e2e;
     border: none;
+    margin-left: 5px;
   }
 }

@@ -10,6 +10,11 @@ const Header = () => {
         <img src={vector} className={styles.vector} />
         <img src={group} className={styles.group} />
       </div>
+      <button className={styles.buttonOpenNavLink}>
+        <img src={buttonOpenNavLink1} />
+        <img src={buttonOpenNavLink} />
+        <img src={buttonOpenNavLink1} />
+      </button>
       <div className={styles.linkContainer}>
         <a href="#!" className={styles.styled_link}>
           ABOUT
@@ -32,11 +37,6 @@ const Header = () => {
           <a href="#!">JOIN HYDRA</a>
         </div>
       </div>
-      <button className={styles.buttonOpenNavLink}>
-        <img src={buttonOpenNavLink1} />
-        <img src={buttonOpenNavLink} />
-        <img src={buttonOpenNavLink1} />
-      </button>
     </div>
   );
 };

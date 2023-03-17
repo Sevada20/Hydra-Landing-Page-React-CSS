@@ -66,12 +66,17 @@
 .buttonOpenNavLink {
   display: none;
 }
+.buttonOpenNavLink {
+  display: none;
+}
 
 @media (max-width: 390px) {
   .styled_link {
     display: none;
   }
-
+  .buttonOpenNavLink {
+    padding-right: 20px;
+  }
   .headerContactContainer {
     display: none;
   }

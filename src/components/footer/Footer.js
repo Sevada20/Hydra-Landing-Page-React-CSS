@@ -1,5 +1,6 @@
 import styles from "./Footer.module.css";
 import style1 from "../../img/footerImg/style1.png";
+import style2 from "../../img/footerImg/style2.png";
 import logo from "../../img/footerImg/logo.png";
 import line1 from "../../img/footerImg/line1.png";
 import line2 from "../../img/footerImg/line2.png";
@@ -15,7 +16,7 @@ const Footer = () => {
     <div>
       <div className={styles.footerContainer}>
         <img src={logo} />
-        <img src={line1} />
+        <img src={line1} className={styles.line} />
         <div className={styles.spanContainer1}>
           <span>ABOUT</span>
           <span>SERVICE</span>
@@ -23,14 +24,14 @@ const Footer = () => {
           <span>HOW TO</span>
           <span>JOIN HYDRA</span>
         </div>
-        <img src={line1} />
+        <img src={line1} className={styles.line} />
         <div className={styles.spanContainer2}>
           <span>F.A.Q</span>
           <span>SITEMAP</span>
           <span>CONDITIONS</span>
           <span>LICENSES</span>
         </div>
-        <img src={line1} />
+        <img src={line1} className={styles.line} />
         <div className={styles.websites_container}>
           <div>SOCIALIZE WITH HYDRA</div>
           <div className={styles.images}>
@@ -47,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.lastImg}>
-        <img src={line2} />
+        <img src={line2} className={styles.line} />
       </div>
       <p className={styles.last_row}>
         2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED

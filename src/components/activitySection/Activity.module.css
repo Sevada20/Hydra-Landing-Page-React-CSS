@@ -47,3 +47,27 @@
   font-size: 64px;
   color: #343045;
 }
+
+.mediaContainer {
+  display: none;
+}
+
+@media (max-width: 390px) {
+  .mainContainer {
+    display: none;
+  }
+  .mediaContainer {
+    display: block;
+    margin-top: 56px;
+  }
+  .imgSpanContainer {
+  }
+  .spans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .itemDiv {
+    margin: auto;
+  }
+}
